@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ssd"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/android_icon"
+        android:layout_width="125dp"
+        android:layout_height="110dp"
+        android:contentDescription="Android image"
+        android:background="@drawable/android"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/colorRed"
+        android:id="@+id/textView1" />
+
+    <ImageButton
+        android:id="@+id/bigdata"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/android_icon"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="-20dp"
+        android:layout_toEndOf="@+id/android_icon"
+        android:layout_toRightOf="@+id/android_icon"
+        android:background="@drawable/big"
+        android:contentDescription="big data image" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/android_icon"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="Big Data"
+        android:textColor="@color/colorRed" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/cloud"
+        android:contentDescription="Cloud"
+        android:id="@+id/cloud"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/android_icon"
+        android:layout_alignStart="@+id/android_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloud"
+        android:textColor="@color/colorRed"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/cloud"
+        android:layout_alignLeft="@+id/cloud"
+        android:layout_alignStart="@+id/cloud"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <ImageButton
+        android:id="@+id/datascience"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/bigdata"
+        android:layout_alignLeft="@+id/bigdata"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/data"
+        android:contentDescription="Datascience image" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datascience"
+        android:layout_alignEnd="@+id/exitbutton"
+        android:layout_alignRight="@+id/exitbutton"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Data Science"
+        android:textColor="@color/colorRed" />
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/share"
+        android:contentDescription="Share"
+        android:id="@+id/share"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/cloud"
+        android:layout_alignStart="@+id/cloud" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share App"
+        android:textColor="@color/colorRed"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/exitbutton"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignEnd="@+id/textView1" />
+
+    <ImageButton
+        android:id="@+id/exitbutton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/share"
+        android:layout_toRightOf="@+id/share"
+        android:background="@drawable/ic_exit"
+        android:contentDescription="Exit image" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exitbutton"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="-4dp"
+        android:text="Exit"
+        android:textColor="@color/colorRed" />
+</RelativeLayout>
