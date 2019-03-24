@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "759156896973",
+    "firebase_url": "https://followwhatulike.firebaseio.com",
+    "project_id": "followwhatulike",
+    "storage_bucket": "followwhatulike.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759156896973:android:b11ceae78f4404ea",
+        "android_client_info": {
+          "package_name": "com.example.followwhatulike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759156896973-onibkgptmkjg98rts3n4r2e0s856m73u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.followwhatulike",
+            "certificate_hash": "e2069f8ff59aa487bc3e2c7f03660e34c7dbb8fe"
+          }
+        },
+        {
+          "client_id": "759156896973-u4bdhbgovtf218f5laau0us2iftof6qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOQcPF_PR9Rm-BSx-eDoGZsQXVo6GT1SE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759156896973-u4bdhbgovtf218f5laau0us2iftof6qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
