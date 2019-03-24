@@ -1,6 +1,6 @@
-Course,Rating_x,Rating_y
-A,7,3.5714285714285716
-B,5,3.4
-C,7,4.142857142857143
-D,6,3.6666666666666665
-E,4,2.75
+,Course,Rating_x,Rating_y,Certification,Fees,Duration
+0,A,7,3.5714285714285716,Yes,Paid,25
+1,B,5,3.4,No,Free,20
+2,C,7,4.142857142857143,Yes,Paid,24
+3,D,6,3.6666666666666665,No,Free,20
+4,E,4,2.75,No,Free,26
