@@ -24,7 +24,7 @@ public class Splash_screen extends AppCompatActivity {
         splashpicture.setAnimation(myanim);
 
 
-        final Intent i = new Intent(Splash_screen.this,MainActivity.class);
+        final Intent i = new Intent(Splash_screen.this,loginActivity.class);
         Thread timer = new Thread(){
             public void run()
             {
