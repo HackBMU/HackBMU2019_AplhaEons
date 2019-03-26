@@ -6,3 +6,5 @@ Nowadays, choosing courses and working on them is quite pesky as there are a lot
 All this can be solved on the basis of ratings of courses.
 
 So, a recommendation system to help guide the students to choose what courses are the best for them, is implemented in an Android Application.
+
+Beta version of the final application that we were able to make (Explore WhatULike).
